@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
   padding: 0;
@@ -87,3 +88,356 @@ p{
   height:100%;
   line-height: 20px;
  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=============================================== this part for footer styles */
+#footer {
+    width: 100%;    
+    border: 1px solid transparent;
+    padding: 0 20px;
+    background-color: #ffffff;
+}
+#content-footer{
+    width: 90%;
+    margin: 0 auto;
+}
+
+#title-footer-section-one h5{
+    font-size: 1.4rem;
+    font-weight: bolder;
+    margin: 10px;
+}
+#description-footer-links {
+    width: 90%;    
+    min-height: 70px;
+    justify-content: center;
+    align-items: center;
+}
+#description-footer-links ul{
+    display: flex;
+    list-style-type: none;
+    padding-left: 11px;
+}
+#description-footer-links ul li:nth-child(1){
+    font-weight: 800;    
+}
+#description-footer-links ul li{
+    padding-right: 10px;
+}
+#description-footer-links ul li a{
+    padding: 10px 5px;  
+    border-radius: 12px;  
+    text-decoration: none;
+    color : #000000;
+}
+#description-footer-links ul li:hover a{
+    background-color: #00000011;
+    padding: 10px 5px;
+    border-radius: 12px;
+}
+#description-footer-links ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding-left: 11px;
+
+}
+
+#description-content-footer2 ul li a{
+    padding: 10px 5px; 
+    border-radius: 12px;  
+    text-decoration: none;
+    color : #000000;
+}
+
+#discription-content-footer2 ul li :hover a{
+    background-color: #00000011;
+    padding: 10px 5px;
+    border-radius: 12px;
+}
+
+/* <!-- list of countries --> */
+#meta-list-item{
+    display: flex;
+    width: 100%;
+         
+}
+#meta-list-item div{
+    width: 50%;
+    height: 200px;
+    list-style-type: none;
+    
+}
+
+
+#listOfFooter {
+    display: flex;
+    padding: 20px 15px;  
+    border-radius: 12px;
+    list-style-type: none;
+    scroll-padding-inline: auto;
+    color: black
+    
+}
+.parent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 10px;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 2 / 2; }
+    .div2 { grid-area: 1 / 2 / 2 / 3; }
+    .div3 { grid-area: 1 / 3 / 2 / 4; }
+    .div4 { grid-area: 1 / 4 / 2 / 5; }
+
