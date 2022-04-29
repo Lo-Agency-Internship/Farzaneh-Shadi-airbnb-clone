@@ -16,7 +16,8 @@
         <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
-
+        <!-- fontawesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head>
 
 <body>
@@ -24,14 +25,15 @@
     <!-- End of Picture with shop airbnb gift card -->
     <!--  -->
     <!-- Picture with question in hosting -->
-    <div class="Part6">
+    <!-- this part have a bug  || farzane comment this lins  ============================START BUG=========================== -->
+    <!-- <div class="Part6">
         <img src="images/questions.jpg">
         <div class="ChildPart6" style="position: absolute">
             <div class="Part6div1"><span class="Part6Span1">Questions
                     about
                     hosting?</span> </div>
-            <div class="Part6div2"><span class="Part6Span2">Ask a Superhost</span></div>
-
+            <div class="Part6div2"><span class="Part6Span2">Ask a Superhost</span></div> -->
+        <!-- this part have a bug  || farzane comment this lins  ============================END BUG=========================== -->
             <!-- <header class="header"
         style="background-color: #ecf0f1!important; margin-top:0!important;color:#000000c9!important;">
         <div class="inner-header container">
@@ -221,13 +223,15 @@
             <div id="description-footer-links">
                 <!-- list  items -->
                 <ul>
-                    <li><a href="#">Destinations for arts & culture</a></li>
+                    <li class="border-bottom"><a href="#">Destinations for arts & culture</a></li>
                     <li><a href="#">Destinations for outdoor adventure</a></li>
                     <li><a href="#">Mountain cabins</a></li>
                     <li><a href="#">Beach destinations</a></li>
                     <li><a href="#">Popular destinations</a></li>
                     <li><a href="#">Unique Stays</a></li>
                 </ul><!-- /list items -->
+                <hr>
+                
             </div>
         </section>
         <!-- /contentFooter-->
@@ -266,79 +270,99 @@
                     <li><a href="#">Show more</a></li>
                 </ul>
             </div>
-        </section>
-
-
+        </section>     
 
         <!--  second content footer -->
-
-        <section id="content-footer2">
-
+        <section class="parent-content-footer">
             <div>
-                <ul id="listOfFooter">
-                    <li><a href="#">Support</a></li>
-                    <li><a href="#">Community</a></li>
-                    <li><a href="#">Hosting</a></li>
-                    <li><a href="#">about</a></li>
-                </ul><!-- /list items -->
-            </div>
-        </section>
-
-        <div class="parent">
-
-            <div class="div1">
                 <ul>
-                    <li><a href="#">Help Center</a></li>
-                    <li><a href="#">Safety information</a></li>
-                    <li><a href="#">Cancellation options</a></li>
-                    <li><a href="#">Our COVID-19 Response</a></li>
-                    <li><a href="#">Supporting people with disabilities</a></li>
-                    <li><a href="#">Report a neighborhood concern</a></li>
-
-                </ul><!-- /list items -->
-
-            </div>
-            <div class="div2">
+                    <li>
+                        <h3><b>Support</b></h3>
+                    </li>
+                    <li>
+                        <a href="#">Help Center</a>
+                    </li>
+                    <li>
+                        <a href="#">Safety information</a>
+                    </li>
+                    <li>
+                        <a href="#">Cancellation options</a>
+                    </li>
+                    <li>
+                        <a href="#">Our COVID-19 Response</a>
+                    </li>
+                    <li>
+                        <a href="#">Supporting people with disabilities</a>
+                    </li>
+                    <li>
+                        <a href="#">Report a neighborhood concern</a>
+                    </li>
+                </ul>    
+    
                 <ul>
-
+                    <li><h3><b>Community</b></h3></li>
                     <li><a href="#">Airbnb.org: disaster relief housing</a></li>
                     <li><a href="#">Support Afghan refugees</a></li>
                     <li><a href="#">Combating discrimination</a></li>
-
                 </ul>
-
-            </div>
-
-            <div class="div3">
+    
                 <ul>
+                    <li><h3><b>Hosting</b></h3></li>
                     <li><a href="#">Try hosting</a></li>
                     <li><a href="#">AirCover: protection for Hosts</a></li>
                     <li><a href="#">Explore hosting resources</a></li>
                     <li><a href="#">Visit our community forum</a></li>
                     <li><a href="#">How to host responsibly</a></li>
-
-                </ul>
-
-            </div>
-
-            <div class="div4">
+    
+                </ul>            
+    
                 <ul>
-
+                    <li><h3><b>About</b></h3></li>
                     <li><a href="#">Newsroom</a></li>
                     <li><a href="#">Learn about new features</a></li>
                     <li><a href="#">Letter from our founders</a></li>
                     <li><a href="#">Careers</a></li>
                     <li><a href="#">Investors</a></li>
-                    <li><a href="#">Airbnb Luxe</a></li>
+                    <li><a href="#">Airbnb Luxe
+                       
+                    </a></li>
                 </ul>
+            </div>                        
+        </section>
+        <hr class="w-90">
+        <!-- last part of footer -->
+        <section id="last-part-footer">
 
-            </div>
-
-        </div>
-
-    </footer>
-    <!-- /footer -->
-
+                <div id="last-part-child-one">
+                <ul>
+                    <li>
+                        <a href="#">2022 Airbnb, Inc.</a>
+                    </li>
+                    <li>
+                        <a href="#">Privacy </a>
+                    </li>
+                    <li>
+                        <a href="#">Terms </a>
+                    </li>
+                    <li>
+                        <a href="#">Sitemaps </a>
+                    </li>
+                </ul>
+                </div>
+                <div id="last-part-child-two">
+                    <ul>
+                        <li><a href="#"><i class="fa-size fa-solid fa-globe"></i>English(US)</a></li>
+                        <li><a href="#"><i class="fa-size fa-solid fa-euro-sign"></i>EUR</a></li>
+                        <li><a href="#"><i class="fa-size fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fa-size fa-brands fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa-size fa-brands fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+                                <!-- last part of footer -->
+        </section>      
+                   
+    </footer>    
+    <!-- /footer -->    
 
 </body>
 
