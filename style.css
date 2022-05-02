@@ -9,6 +9,15 @@
 ul {
     list-style-type: none;
 }
+/* @media only all and (max-width:1366px) { 
+    .siteContentContainer{
+        display:none;
+    }
+
+    .siteWidthNotSupported{
+        display:block;
+    }
+} */
 
 @font-face {
     font-family: 'Circular';
@@ -56,6 +65,8 @@ p {
 
 .Part6 {
     position: relative;
+    /* max-width: 1290px; */
+    min-width: 1046px;
     height: 679.600px;
     margin-left: 80px;
     margin-right: 80px;
@@ -64,6 +75,7 @@ p {
 
 .Part6 img {
     border-radius: 12px;
+    width:100%;
     height: 679.600px;
     position: absolute;
 }
