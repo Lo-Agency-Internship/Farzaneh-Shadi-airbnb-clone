@@ -62,7 +62,45 @@ p {
     line-height: 1.43;
     font-weight: 400;
 }
-
+/* Picture with shop airbnb gift card */
+.Part5{
+    /* margin-bottom:96px; */
+  }
+  .Part5 .ChildPart5{
+    display: flex;
+    margin-top: 0;
+}
+.Part5div1{
+  width:429.825px;
+  height:416.525px;
+  display:flex;
+  flex-direction: column;
+  gap:24px;
+}
+.ChildPart5 .Part5div1 .span1{
+    font-size: 41px;
+    display:block;
+    width: 229.92px;
+    /* height:339.800px; */
+    letter-spacing: -0.02em;
+    line-height: 46px;
+    padding-left: 80px;
+}
+.part5a{
+  background-color: black;
+  border-radius: 8px;
+  width: 133.2px;
+  height: 48px;
+  margin-left: 80px;
+}
+.part5a span{
+  color:#FFFFFF;
+}
+.Part5div2{
+    width: 819.525px;
+    height: 416.525px;
+}
+ /* Picture with question in hosting  */
 .Part6 {
     position: relative;
     /* max-width: 1290px; */
