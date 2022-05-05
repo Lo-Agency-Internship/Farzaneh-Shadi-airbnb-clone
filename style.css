@@ -52,21 +52,21 @@ ul {
     font-style: normal;
     
 }
-@font-face {
+/* @font-face {
     font-family: 'Circular';
     src: url(font/CircularStd-Medium.otf);
-}
+} */
 
 /* @font-face {
     font-family: 'Circular';
     src: url(font/CircularStd-Bold.otf);
     font-weight: bold; 
   } */
-@font-face {
+/* @font-face {
     font-family: 'CircularLight';
     src: url(font/CircularStd-Light.otf);
     font-weight: lighter;
-}
+} */
 
 html,
 body {
@@ -93,6 +93,60 @@ p {
     line-height: 1.43;
     font-weight: 400;
 }
+/* Box with Help house ///////////////////////////////////////////////////////////////////////////////*/
+.Part1{
+    background-color:black;
+    padding-bottom: 96px;
+    /* height: 336.688px; */
+}
+.ChildPart1{
+    height: 337.675px;
+    color: #ffffff;
+    background-color: #FF385C;
+    margin-left: 80px;
+    margin-right: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+  }
+  .Part1div1{
+    text-align: center; 
+    justify-content: center;
+}
+  .Part1text1{
+    font-size:38px;
+  flex: 0 0 120px;
+  /* letter-spacing: -0.02em; */
+  letter-spacing: -0.0111em;
+  line-height: 54px;
+  font-weight: 600;
+  display: inline-block;
+  padding-bottom: 24px;
+  }
+  .Part1div2{
+    display: flex;
+    justify-content: center;
+  }
+  .Part1span1{
+    background-color: #FF385C;
+    color: #FFFFFF;
+    border-radius: 8px;
+    /* padding: 8px 16px 8px 16px; */
+    border: 1px solid white;
+    width: 104.55px;
+    height: 34px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+  .Part1text2{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;;
+    letter-spacing: 0.035em;
+  }
 
 /* Picture with Let your curiosity do the booking /////////////////////////////////////////////////////*/
   .Part2 {
