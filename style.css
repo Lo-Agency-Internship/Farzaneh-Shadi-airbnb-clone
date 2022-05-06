@@ -2,10 +2,10 @@
 
     margin: 0;
     padding: 0;
-    text-align: justify;
+    /* text-align: justify; */
     text-justify: inter-word;
     /* farzaneh adds this part for fonts */
-    font-family: "circular";
+    /* font-family: "circular"; */
     font-size: 16px;
 }
 
@@ -13,15 +13,6 @@
 ul {
     list-style-type: none;
 }
-/* @media only all and (max-width:1366px) { 
-    .siteContentContainer{
-        display:none;
-    }
-
-    .siteWidthNotSupported{
-        display:block;
-    }
-} */
 /* farzaneh adds this part for fonts */
 /*****************fonts**********************/
 @font-face {
@@ -87,34 +78,99 @@ h1 {
     font-size: 46px;
 }
 
-p {
+/* p {
     font-family: 'CircularLight';
     font-size: 16px;
     line-height: 1.43;
     font-weight: 400;
+} */
+
+.header {
+    background-color: black;
+    color: white;
+    height: 80px;
+    margin-top: 0;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    align-content: center;
+    padding-left: 80px;
+    /* margin-right: 80px; */
+    flex-direction: row;
+  }
+.logoPart{
+    width: 349px;
+    height: 80px;
+    display: flex;
+    align-items: center;
 }
+.logo {
+    width: 102px;
+    height: 34px;
+    /* position: relative; */
+    display: flex;
+
+  }
+  .header1-2{
+    margin-left: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+  }
+  .btnheader{
+    cursor: pointer;
+    background-color: black;
+    border: none;
+    color: white;
+    line-height: 20px;
+  }
+  .header1-3{
+    display: flex;
+    flex-direction: row;
+    margin-right: 0px!important;
+    align-content: flex-start;
+    align-items: center;
+    /* width: 270px; */
+    margin-left: 111px;
+    /* gap: 24px; */
+  }
+  .host{
+    /* font-size: 14px;  */
+    font-weight: 800;
+    /* line-height: 18px; */
+    font-size: 15px;
+    margin-right: 26px;
+  }
+  .profile{
+    display: flex;
+    width: 77px;
+    height: 42px;
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    align-items: center;
+  }
+  .profilebox{
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+   
+  }
+
+/* Search box of header/////////////////////////////////////////////////////// */
 .header2{
-    background-color: brown;
+    background-color: black;
     text-align: center;
     position: relative;
-    /* width: 800px; */
-    /* margin-bottom: 50px; */
     height: 64px;
-    /* padding-top: 76px;*/
 }
-
-.parenthi {
+.Childheader2 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-    /* justify-items: center; */
-    /* align-items: center; */
-    /* width: 746px; */
-    /* justify-content: center; */
-    /* margin-left: 335px;
-    margin-right: 335px; */
+    width:848px;
+    background-color: #FFFFFF;
     height: 64px;
     align-content: center;
     border-radius:32px;
@@ -122,6 +178,7 @@ p {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    text-align: justify;
 }
   
     
@@ -139,6 +196,15 @@ p {
         justify-content: center;
         flex-direction: column;
     }
+    .Searchbar1:hover, .Searchbar2:hover, .Searchbar3:hover{
+        background-color: #EBEBEB;
+        border-radius: 40px;
+
+    }
+    /* .Searchbar2-1:hover, .Searchbar2-2:hover{
+        background-color: #EBEBEB;
+        border-radius: 40px; 
+    } */
     .Searchbar1-1{
         display: flex;
         flex-direction: column;
@@ -149,12 +215,14 @@ p {
         padding-right: 54px;
         height: 36px;
         width: 182.488px;
+        cursor: pointer;
     }
     label{
         font-size: 12px;
         font-weight: 800;
         line-height: 16px;
         letter-spacing: 0.04em;
+        cursor: pointer;
     }
     .Searchbarspan{
         font-size: 14px;
@@ -186,6 +254,7 @@ p {
         height: 36px;
         justify-content: center;
         align-items: flex-start;
+        /* cursor: pointer; */
     }
     .Searchbar2-2{
         flex: 2;
@@ -553,9 +622,9 @@ p {
  }
 
 /* Picture with shop airbnb gift card ///////////////////////////////////////////////////////*/
-.Part5{
-    /* margin-bottom:96px; */
-  }
+/* .Part5{
+    margin-bottom:96px;
+  } */
   .Part5 .ChildPart5{
     display: flex;
     margin-top: 0;
@@ -902,15 +971,16 @@ p {
     border: 1px solid transparent;
     background-color: #ffffff;
     margin: auto;
+    font-family: 'Circular', sans-serif;
  
 }
 @font-face {
     font-family: 'Circular';
     src: url('font/CircularStd-Bold.otf');
 }
-footer{
+/* footer{
     font-family: 'Circular', sans-serif;
-}
+} */
 
 .general.tags{
     margin: 0px 80px;
