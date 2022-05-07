@@ -1,15 +1,10 @@
 * {
-
     margin: 0;
     padding: 0;
     /* text-align: justify; */
     text-justify: inter-word;
-    /* farzaneh adds this part for fonts */
-    /* font-family: "circular"; */
     font-size: 16px;
 }
-
-
 ul {
     list-style-type: none;
 }
@@ -17,46 +12,50 @@ ul {
 /*****************fonts**********************/
 @font-face {
     font-family: 'myCircularB';
-    src: url(/font/CircularStd-Black.otf) format(woff2);
-    
-    
+    src: url(/font/Airbnb_Cereal-Bold-bdfb98485e7836ba31b456f65cded088.woff2) format(woff2);
 }
 @font-face {
     font-family: 'myCircularM';
-    src: url(/font/CircularStd-Light.otf);
-    
+    src: url(/font/CircularStd-Light.otf)format(woff2);
     font-style: normal;
     font-weight: 400;
 }
 @font-face {
     font-family: 'myCircularL';
-    src: url(fonts/Circular-light.ttf);
-    
-    font-style: normal;
-    
-}
+    src: url(fonts/Circular-light.ttf)format(woff2);
+    }
 @font-face {
     font-family: 'myCircularBook';
-    src: url(fonts/Circular-Book.otf);
-    
-    font-style: normal;
-    
-}
-/* @font-face {
-    font-family: 'Circular';
-    src: url(font/CircularStd-Medium.otf);
-} */
-
-/* @font-face {
-    font-family: 'Circular';
-    src: url(font/CircularStd-Bold.otf);
-    font-weight: bold; 
-  } */
-/* @font-face {
-    font-family: 'CircularLight';
-    src: url(font/CircularStd-Light.otf);
-    font-weight: lighter;
-} */
+    src: url(fonts/Circular-Book.otf)format(woff2);
+    }
+@font-face {
+    font-family: 'Cereal-medium';
+    src: url(/font/CircularStd-Medium.otf)format(woff2);
+    }
+@font-face {
+    font-family: 'CircularStd-bold';
+    src: url(/font/CircularStd-Bold.otf)format(woff2);
+    }
+@font-face {
+    font-family: 'A';
+    src: url(/font/Airbnb_Cereal-Bold-bdfb98485e7836ba31b456f65cded088.woff2)format(woff2);
+    }
+@font-face {
+    font-family: 'CircularStd-boldItalic';
+    src: url(/font/CircularStd-BoldItalic.otf)format(woff2);
+    }
+@font-face {
+    font-family: 'Circular-bold.ttf';
+    src: url(/font/Circular-bold.ttf);
+   }
+@font-face {
+    font-family: 'Circular-light.ttf';
+    src: url(/font/Circular-light.ttf);
+    }
+      @font-face {
+        font-family: 'Circular-medium.ttf';
+        src: url(/font/Circular-medium.ttf);
+    }
 
 html,
 body {
@@ -77,12 +76,6 @@ h1 {
     font-size: 46px;
 }
 
-/* p {
-    font-family: 'CircularLight';
-    font-size: 16px;
-    line-height: 1.43;
-    font-weight: 400;
-} */
 
 .header {
     background-color: black;
@@ -394,13 +387,15 @@ h1 {
   }
   .Part2text1{
     position: absolute;
-    font-size: 38px;
+    font-size: 41px;
     padding-bottom: 64px;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     font-weight: bolder !important;
+    font-family: 'Circular-light.ttf';
+
 
   }
   .Part2text1span{
@@ -431,6 +426,7 @@ h1 {
     height: 56px;
     cursor: pointer;
     font-weight: bolder !important;
+    font-family: 'Circular-light.ttf';
   }
 
   .Part2text2a{
@@ -440,7 +436,8 @@ h1 {
     -webkit-text-fill-color: transparent !important;
     line-height: 28px;
     min-width: 0px !important;
-     /* padding: 14px 32px !important; */
+    font-family: 'Circular-bold.ttf';
+  /* padding: 14px 32px !important; */
   }
   .Part2img{
     /* margin-left:80px;
@@ -741,223 +738,6 @@ background-color: #EBEBEB;
     height: 100%;
     line-height: 20px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
