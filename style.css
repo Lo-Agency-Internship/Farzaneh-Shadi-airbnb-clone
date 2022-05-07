@@ -555,13 +555,16 @@ h1 {
 .Part4{
     padding-top:96px;
     padding-bottom: 96px;
-    width: 1249.6px;
-    height: 617.8px;
+    /* width: 1249.6px;
+    height: 617.8px; */
+    width: 1189.6px;
+    height:667.800px;
+    margin-left: 80px;
     font-weight: 600;
   }
   .Part4 .ChildPart4{
-    margin-left:80px;
-    margin-right:80px;
+    /* margin-left:80px;
+    margin-right:80px; */
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
@@ -570,17 +573,18 @@ h1 {
 }
 
 .Part4 .ChildPart4 img{
-    width: 532.8px;
-    height: 532.8px;
+    width: 582.8px;
+    height: 582.8px;
     border-radius: 12px;
     /* position:absolute; */
 }
 .Part4text{
-  margin-left:80px;
-  margin-right:80px;
+  /* margin-left:80px; */
+  /* margin-right:80px; */
   padding-bottom: 48px;
   font-size: 33px;
   letter-spacing: -0.01em;
+  height: 37px;
 }
 .part4div{
   display: grid;
@@ -642,10 +646,11 @@ background-color: #EBEBEB;
   .Part5 .ChildPart5{
     display: flex;
     margin-top: 0;
+    height:449.862px;
 }
 .Part5div1{
-  width:429.825px;
-  height:416.525px;
+  width:464.225px;
+  height:449.862px;
   display:flex;
   flex-direction: column;
   gap:24px;
@@ -653,7 +658,7 @@ background-color: #EBEBEB;
 .ChildPart5 .Part5div1 .span1{
     font-size: 41px;
     display:block;
-    width: 229.92px;
+    width: 229.725px;
     /* height:339.800px; */
     letter-spacing: -0.02em;
     line-height: 46px;
@@ -674,8 +679,8 @@ background-color: #EBEBEB;
   line-height: 20px;
 }
 .Part5div2{
-    width: 819.525px;
-    height: 416.525px;
+    width: 885.375px;
+    height: 449.862px;
 }
  /* Picture with question in hosting  ////////////////////////////////////////////////////////////////*/
 .Part6 {
