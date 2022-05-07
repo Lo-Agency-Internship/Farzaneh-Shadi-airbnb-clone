@@ -87,7 +87,7 @@ h1 {
     align-items: center;
     align-content: center;
     padding-left: 80px;
-    /* margin-right: 80px; */
+    padding-right: 80px;
     flex-direction: row;
   }
 .logoPart{
@@ -109,6 +109,9 @@ h1 {
     gap: 32px;
     align-items: center;
     margin-left: 80px;
+    margin-right: 80px;
+    height: 80px;
+    width: 448.763px;
   }
   /* farzaneh edit header1-2 */
   .btnheader{
@@ -122,11 +125,12 @@ h1 {
     display: flex;
     flex-direction: row;
     margin-right: 0px!important;
-    align-content: flex-start;
+    margin-left: 46px;
+    /* height: 70px; */
+    width: 288px;
+    /* padding: 10px 18.7px; */
     align-items: center;
-    margin-left: 111px;
-    height: 42px;
-    padding:  10px 18.7px;
+    justify-content: flex-end;
   }
   /* farzaneh edit header1-3 */
 
@@ -192,7 +196,7 @@ h1 {
         justify-content: center;
         flex-direction: column;
     }
-    .Searchbar1:hover, .Searchbar2:hover, .Searchbar3:hover{
+    .Searchbar1:hover, .Searchbar3:hover, .ChildSearchbar2:hover{
         background-color: #EBEBEB;
         border-radius: 40px;
 
@@ -201,6 +205,7 @@ h1 {
         background-color: #EBEBEB;
         border-radius: 40px; 
     } */
+    
     .Searchbar1-1{
         display: flex;
         flex-direction: column;
@@ -220,7 +225,7 @@ h1 {
         letter-spacing: 0.04em;
         cursor: pointer;
     }
-    .Searchbarspan{
+    .Searchbarinput{
         font-size: 14px;
         color: #222222;
         line-height: 18px;
@@ -228,6 +233,11 @@ h1 {
         margin: 0;
         padding: 0;
         background: none;
+    }
+    .Searchbarspan{
+        font-size: 14px;
+        line-height: 18px;
+        color:#717171;
     }
     
     .Searchbar2{
@@ -237,6 +247,13 @@ h1 {
         align-items: center;
         flex-direction: row;
         width: 357.3px
+    }
+    .ChildSearchbar2{
+        display: flex;
+    width: 180.15px;
+    height: 64px;
+    align-items: center;
+    cursor: pointer;
     }
     .Searchbar2-1{
         flex: 1;
@@ -269,6 +286,7 @@ h1 {
         justify-content: space-between;
         align-items: center;
         flex-direction: row;
+        cursor: pointer;
     }
     .Searchbar3-1{
         flex: 1;
