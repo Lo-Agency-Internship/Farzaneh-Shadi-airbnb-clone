@@ -1004,6 +1004,7 @@ footer{
     margin: 0 80px;
     display: flex;
     width: 100%;
+    align-items: center;
 
 }
 #last-part-child-one ul li:first-child{
@@ -1043,4 +1044,8 @@ footer {
 }
 .fa-size {
     font-size: 20px;
+}
+.bottomicon {
+    display: flex;
+    align-items: center;
 }
