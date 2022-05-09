@@ -1,9 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    /* text-align: justify; */
     text-justify: inter-word;
-    /* font-size: 16px; */
 }
 ul {
     list-style-type: none;
@@ -31,11 +29,6 @@ body {
     margin-top: 0;
     padding: 0;
     padding: 0;
-    /* background-color:black; */
-    /* display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0; */
 }
 h1 {
     font-size: 46px;
@@ -48,7 +41,6 @@ h1 {
     height: 80px;
     margin-top: 0;
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     align-content: center;
     padding-left: 80px;
@@ -64,7 +56,6 @@ h1 {
 .logo {
     width: 102px;
     height: 34px;
-    /* position: relative; */
     display: flex;
   }
   .header1-2{
@@ -84,7 +75,6 @@ h1 {
     background-color: black;
     border: none;
     color: white;
-    /* line-height: 20px; */
     line-height: 35px;
     font-family: Circular, sans-serif;
     font-size: 16px;
@@ -113,28 +103,21 @@ h1 {
         transition: transform .3s ease-in-out;
       }
       .underline-hover:hover{
-        /* background-color: grey; */
         color:rgb(190, 190, 190);
       }
   
       .underline-hover:hover:after {
         transform: scaleX(1);
-      }
-      
-
+      }  
   .header1-3{
     display: flex;
     flex-direction: row;
     margin-right: 0px!important;
     margin-left: 46px;
-    /* height: 70px; */
     width: 288px;
-    /* padding: 10px 18.7px; */
     align-items: center;
     justify-content: flex-end;
   }
-  /* farzaneh edit header1-3 */
-
   .host{
     font-size: 14px;
     font-weight: 500;
@@ -150,7 +133,6 @@ h1 {
   .host:hover{
     background-color: #222222;
     border-radius: 30px;
-
   }
   .worldicon{
     width: 46px;
@@ -217,8 +199,6 @@ h1 {
         display: flex;
         align-content: center;
         flex-wrap: nowrap;
-        /* margin-left: 32px; */
-        /* width: 50px; */
         width: 269.975px;
         justify-content: center;
         flex-direction: column;
@@ -252,16 +232,7 @@ h1 {
     }
     .Searchbarinput{
         border: 0;
-    /* margin: 0; */
-    /* padding: 0; */
-    /* background: none; */
     font-size: 14px;
-    /* font-weight: 200; */
-    /* color: red !important; */
-    /* text-overflow: ellipsis; */
-    /* font-height: 18px; */
-    /* display: block; */
-    /* width: 100%; */
     font-family: Circular, sans-serif;
     margin-top: -1px;
     }
@@ -293,12 +264,10 @@ h1 {
         flex-direction: column;
         border-right: 1px solid lightgray;
         margin-left: 24px;
-        /* padding-right: 24px; */
         width: 153.150px;
         height: 32px;
         justify-content: center;
         align-items: flex-start;
-        /* cursor: pointer; */
     }
     .Searchbar2-2{
         flex: 2;
@@ -335,7 +304,6 @@ h1 {
     flex-direction: column;
     align-content: center;
     align-items: center;
-    /* flex-wrap: wrap; */
     height: 48px;
     width: 48px;
     }
@@ -343,8 +311,6 @@ h1 {
         flex: 2;
     display: flex;
     width: 48px;
-    /* padding-top: 4px; */
-    /* height: 67px; */
     background-color: #ff385c;
     margin-right: 8.5px;
     border-radius: 24px;
@@ -357,7 +323,6 @@ h1 {
     background-color:black;
     padding-bottom: 96px;
     padding-top: 76px;
-    /* height: 336.688px; */
 }
 .ChildPart1{
     height: 368.675px;
@@ -367,19 +332,14 @@ h1 {
     margin-right: 80px;
     display: flex;
     justify-content: center;
-    /* align-items: center; */
     border-radius: 12px;
-    /* margin-top: 116px; */
-    /* padding-top: 118px;*/
   }
   .Part1div1{
     width: 760.88px;
     height: 43px;
     text-align: center;
-    /* justify-content: center; */
     margin-top: 126px;
     margin: 0;
-    /* display: inline-block; */
     padding: 0;
     padding-top: 126px;
 }
@@ -387,17 +347,10 @@ h1 {
   .Part1text1{
     font-size: 38px;
     height: 43px;
-    /* flex: 0 0 120px; */
-    /* letter-spacing: -0.02em; */
     letter-spacing: -0.02em;
-    /* line-height: 54px; */
     font-weight: 500;
     display: inline-block;
-    /* padding-bottom: 24px; */
     margin-bottom: 28.5px;
-    /* width: 67px; */
-    /* height: 67px; */
-    /* margin-top: 116px; */
   }
 
   .Part1div2{
@@ -409,7 +362,6 @@ h1 {
     background-color: #FF385C;
     color: #FFFFFF;
     border-radius: 8px;
-    /* padding: 8px 16px 8px 16px; */
     border: 1px solid white;
     width: 106.55px;
     height: 36.5px;
@@ -417,13 +369,11 @@ h1 {
     justify-content: center;
     display: flex;
     align-items: center;
+    cursor: pointer;
   }
   .Part1text2{
     font-size: 14px;
     font-weight: 500;
-    /* padding: 1px; */
-    /* line-height: 18px; */
-    /* letter-spacing: 0.035em; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -473,8 +423,6 @@ h1 {
     align-items: center;
     font-weight: bolder !important;
     font-family: 'Circular';
-    /* font-weight: bolder !important;
-    font-family: 'Circular-light.ttf'; */
 
   }
   .Part2text1span{
@@ -490,7 +438,6 @@ h1 {
     line-height: 43px;
     margin-bottom: 24px;
     color: #FFFFFF;
-    /* width: 564.15px; */
 }
     #sample{
         font-weight: bolder;
@@ -523,18 +470,12 @@ h1 {
     line-height: 28px;
     min-width: 0px !important;
     font-family: 'Circular';
-     /* font-family: 'Circular-bold.ttf'; */
-/* padding: 14px 32px !important; */
 }
 .Part2text2:hover{
     background-color: #F7F7F7;
 }
-    /* font-family: 'Circular-bold.ttf'; */
-  /* padding: 14px 32px !important; */
   
   .Part2img{
-    /* margin-left:80px;
-    margin-right:80px; */
     position: relative;
     height:594.8px;
   }
@@ -554,20 +495,16 @@ h1 {
     height: 553.53px;
   }
  .Part3text{
-    /* width: 413.925px; */
     height: 85px;
     margin-left:80px;
  }
  .Part3text1{
-    /* padding-bottom: 48px; */
     font-size: 33px;
     font-weight: 500;
     letter-spacing: -0.02em;
     line-height: 37px;
  }
    .ChildPart3 {
-     /* margin-left: 80px;
-     margin-right: 80px; */
      display: grid;
      grid-template-columns: repeat(4, 1fr);
      grid-template-rows: 1fr;
@@ -594,8 +531,6 @@ h1 {
      grid-template-columns: 1fr;
      grid-template-rows: repeat(2, 1fr);
      grid-column-gap: 0px;
-     /* align-content: center; */
-    /* height: 336.525px; */
     border-radius: 12px;
     overflow: hidden;
      }
@@ -607,7 +542,6 @@ h1 {
      grid-column-gap: 0px;
      border-radius: 12px;
     overflow: hidden;
-     /* height: 429.05px; */
     }
     .div4 { grid-area: 1 / 4 / 2 / 5; 
         display: grid;
@@ -617,7 +551,6 @@ h1 {
         overflow: hidden;}
         .cardflextext{
         padding: 20px 16px 16px;
-        /* background: rgb(204, 45, 74); */
         display: flex;
         flex-direction: column;
      }
@@ -628,7 +561,6 @@ h1 {
      .cardflextext1{
         color: #FFFFFF;
         font-size: 27px;
-        /* font-weight: 600; */
         letter-spacing: -0.01em;
         line-height: 30px;
         padding-bottom: 8px;
@@ -637,24 +569,20 @@ h1 {
      .cardflextext2{
         color: #FFFFFF;
         font-size: 15px;
-        /* font-weight: 400; */
         line-height: 20px;
      }
  
      /* Picture with discover airbnb experiences //////////////////////////////////////////////////// */
-.Part4{
-    /* padding-top:96px; */
+.Part4
+{
     padding-bottom: 96px;
-    /* width: 1249.6px;
-    height: 617.8px; */
     width: 1189.6px;
     height:667.800px;
     margin-left: 80px;
     font-weight: 600;
   }
-  .Part4 .ChildPart4{
-    /* margin-left:80px;
-    margin-right:80px; */
+  .Part4 .ChildPart4
+  {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
@@ -666,11 +594,8 @@ h1 {
     width: 582.8px;
     height: 582.8px;
     border-radius: 12px;
-    /* position:absolute; */
 }
 .Part4text{
-  /* margin-left:80px; */
-  /* margin-right:80px; */
   padding-bottom: 48px;
   font-weight: 500;
   font-size: 33px;
@@ -680,16 +605,13 @@ h1 {
 .part4div{
   display: grid;
  grid-template-columns: 1fr;
-/* grid-template-rows: repeat(2, 1fr); */
  grid-column-gap: 0px;
  grid-row-gap: 24px;
  padding:40px
 }
 .Part4div1{
-  /* position: absolute; */
   grid-area: 1 / 1 / 2 / 2;
   width: 234.812px;
-  /* height: 294px;*/
 }
 .Part4Span1{
   color: #FFFFFF;
@@ -732,9 +654,7 @@ background-color: #EBEBEB;
  }
 
 /* Picture with shop airbnb gift card ///////////////////////////////////////////////////////*/
-/* .Part5{
-    margin-bottom:96px;
-  } */
+
   .Part5 .ChildPart5{
     display: flex;
     margin-top: 0;
@@ -751,7 +671,6 @@ background-color: #EBEBEB;
     font-size: 41px;
     display:block;
     width: 233.725px;
-    /* height:339.800px; */
     letter-spacing: -0.02em;
     line-height: 46px;
     padding-left: 80px;
@@ -764,6 +683,10 @@ background-color: #EBEBEB;
   width: 133.2px;
   height: 48px;
   margin-left: 80px;
+  cursor: pointer;
+}
+.part5a:hover{
+    background-color: black;
 }
 .part5a span{
   color:#FFFFFF;
@@ -777,14 +700,11 @@ background-color: #EBEBEB;
  /* Picture with question in hosting  ////////////////////////////////////////////////////////////////*/
 .Part6 {
     position: relative;
-    /* max-width: 1290px; */
     min-width: 1046px;
     height: 679.600px;
-    padding-bottom: 48px;
 }
 
 .Part6 img {
-    /* border-radius: 12px; */
     width:100%;
     height: 624.800px;
     position: absolute;
@@ -793,7 +713,6 @@ background-color: #EBEBEB;
 .ChildPart6 {
     display: grid;
     grid-template-columns: 1fr;
-    /* grid-template-rows: repeat(2, 1fr); */
     grid-column-gap: 0px;
     grid-row-gap: 186px;
     padding-left: 80px;
@@ -839,38 +758,39 @@ background-color: #EBEBEB;
 
 /* =============================================== this part for footer styles */
 .container-footer{
-    /*height: 279px; */
-    /* margin-left: 80px; */
+   
     font-family: 'Circular',serif;
-    /* width: 88.3%; */
-    /* min-height: 30px; */
-    /* margin: 4px auto; */
-    /* box-sizing: border-box; */
-    /* border: 1px solid transparent; */
-    /* font-size: 22px; */
     width: 1349.6px;
     margin-left: 60px;
 }
 .meta-list-parent{
     width: 1189.6px;
-    /* margin-left: 80px; */
-    /* margin-right: 80px; */
     height: 51px;
 }
 .parent-title-footer > *{
     font-size: 22px;
     font-weight: 500;
     margin-bottom: 10px;
+    margin-top: -8px;
 }
-/* meta list */
-/* .parent-meta-list-section{
-    margin-left: 62px;
-} */
+
 .meta-list-item{
     width: 1189.6px;
     font-size: 8px;
     font-weight: 300;
     /* font-family: Circular,sans-serif; */
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    overflow: hidden !important;
+    margin: 27px 24px 35px 19px;
+    height: 182px !important;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    /* gap: 2px; */
+    grid-area: 10px;
+    grid-column-gap: 13px;
 
 }
 .meta-list-item-child{
@@ -896,6 +816,10 @@ background-color: #EBEBEB;
     background-color: #00000007;
     color: #000;
 }
+.text-muted-one{
+   font-weight:500;
+   text-decoration: underline;
+}
 .text-muted-one li:hover{
     text-decoration: underline;
     
@@ -903,7 +827,7 @@ background-color: #EBEBEB;
 .meta-list-item-child  .meta-list-link{
     font-size: 14px;
     font-weight: 500;
-    margin-right: 6px;
+    margin-right: 4.5px;
     text-decoration: none;
     color: #00000098;
     /* padding: 10px; */
@@ -935,6 +859,7 @@ background-color: #EBEBEB;
 .text-muted{
     color: #717171;
     padding-top: 2px !important;
+    
 }
 
 /* mid part footer */
@@ -965,6 +890,7 @@ background-color: #EBEBEB;
     margin-left: 0px;
     /* margin-right: 80px; */
     width: 1189.6px;
+    padding-top: 32px;
 }
 
 .mid-list-footer{    
@@ -990,21 +916,6 @@ background-color: #EBEBEB;
 .d-flex{
     display: flex;
 }
-/* 
-#footer {    
-    border: 1px solid transparent;
-    background-color: #ffffff;
-    margin: auto;
-    font-family: 'Circular', sans-serif;
- 
-}
-/* @font-face {
-    font-family: 'Circular';
-    src: url('font/CircularStd-Bold.otf');
-} */
-/* footer{
-    font-family: 'Circular', sans-serif;
-} */
 
 .general.tags{
     margin: 0px 80px;
@@ -1083,15 +994,7 @@ background-color: #EBEBEB;
     padding: 10px 5px;
     border-radius: 12px;
 }
-/* */
-/* footer{
-    font-family: 'Circular', sans-serif;
-} */ /* 
-.w-90{
-    width: 90% !important;
-    margin: 0 auto;
-    background-color: #f7f7f7 !important;
-} */
+
 #last-part-footer{
     width: 100%;
     margin:  0 auto;
@@ -1140,6 +1043,7 @@ padding: 0px 5px ;
 }
 footer {
     font-family: "Circular",serif;
+    /* margin-left: 38px; */
 }
 .fa-size {
     font-size: 20px;
