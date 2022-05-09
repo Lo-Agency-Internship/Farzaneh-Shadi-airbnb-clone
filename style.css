@@ -511,8 +511,11 @@ h1 {
     width: 161.425px;
     height: 56px;
     cursor: pointer;
-    font-weight: bolder !important;
-    font-family: 'Circular';
+     /* font-weight: bolder !important;
+    font-family: 'Circular-light.ttf'; */
+  }
+  .Part2text2:hover{
+    background-color: #F7F7F7;
   }
 
 
@@ -524,8 +527,10 @@ h1 {
     line-height: 28px;
     min-width: 0px !important;
     font-family: 'Circular';
-  /* padding: 14px 32px !important; */
-  }
+     /* font-family: 'Circular-bold.ttf'; */
+/* padding: 14px 32px !important; */
+}
+ 
 
 
   .Part2img{
