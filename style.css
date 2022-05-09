@@ -72,8 +72,8 @@ h1 {
     flex-direction: row;
     gap: 30px;
     align-items: center;
-    margin-left: 80px;
-    margin-right: 80px;
+    margin-left: 79px;
+    margin-right: 79px;
     height: 80px;
     width: 448.763px;
   }
@@ -243,21 +243,27 @@ h1 {
     }
     label{
         font-size: 12px;
-        font-weight: 800;
-        line-height: 16px;
-        letter-spacing: 0.04em;
-        cursor: pointer;
-        color: #222222;
-        padding-bottom: 2px;
+    font-weight: 800;
+    line-height: 14px;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    color: #222222;
+    padding-bottom: 3px;
     }
     .Searchbarinput{
-        font-size: 14px;
-        color: #222222;
-        line-height: 18px;
         border: 0;
-        margin: 0;
-        padding: 0;
-        background: none;
+    /* margin: 0; */
+    /* padding: 0; */
+    /* background: none; */
+    font-size: 14px;
+    /* font-weight: 200; */
+    /* color: red !important; */
+    /* text-overflow: ellipsis; */
+    /* font-height: 18px; */
+    /* display: block; */
+    /* width: 100%; */
+    font-family: Circular, sans-serif;
+    margin-top: -1px;
     }
     .Searchbarspan{
         font-size: 14px;
@@ -271,7 +277,7 @@ h1 {
         justify-content: space-between;
         align-items: center;
         flex-direction: row;
-        width: 357.3px
+        width: 358.3px
     }
     .ChildSearchbar2{
         display: flex;
@@ -312,6 +318,7 @@ h1 {
         align-items: center;
         flex-direction: row;
         cursor: pointer;
+        align-content: center;
     }
     .Searchbar3-1{
         flex: 1;
@@ -321,24 +328,28 @@ h1 {
         width: 121.725px;
     }
     .Searchcircle{
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-content: flex-end;
-        align-items: center;
-        flex-wrap: wrap;
-        height: 48px;
+        margin-right: 4.5px;
+    margin-bottom: 1px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    height: 48px;
+    width: 48px;
     }
     .Searchcircle1{
         flex: 2;
-        display: flex;
-        width: 48px;
-        /* height: 67px; */
-        background-color: #ff385c;
-        margin-right: 8.5px;
-        border-radius: 24px;
-        align-items: center;
-        justify-content: center;
+    display: flex;
+    width: 48px;
+    /* padding-top: 4px; */
+    /* height: 67px; */
+    background-color: #ff385c;
+    margin-right: 8.5px;
+    border-radius: 24px;
+    align-items: center;
+    justify-content: center;
     }
 
 /* Box with Help house ///////////////////////////////////////////////////////////////////////////////*/
