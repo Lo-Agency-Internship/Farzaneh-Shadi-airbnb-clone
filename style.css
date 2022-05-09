@@ -620,7 +620,7 @@ h1 {
 .Part4Span1{
   color: #FFFFFF;
   font-size: 41px;
-  letter-spacing: -0.01em;
+  letter-spacing: -0.02em;
   line-height: 46px;
   font-weight: 500;
  }
@@ -777,6 +777,7 @@ background-color: #EBEBEB;
     font-weight: 500;
     margin-bottom: 10px;
     margin-top: -8px;
+    color: rgb(34, 34, 34);
 }
 
 .meta-list-item{
