@@ -511,15 +511,18 @@ h1 {
     width: 161.425px;
     height: 56px;
     cursor: pointer;
-     /* font-weight: bolder !important;
-    font-family: 'Circular-light.ttf'; */
-  }
-  .Part2text2:hover{
-    background-color: #F7F7F7;
+    
   }
 
 
-  .Part2text2a{
+
+
+
+
+
+
+ 
+ .Part2text2a{
     font-size: 18px;
     background: linear-gradient(90deg, rgb(111, 1, 156) 0%, rgb(198, 1, 126) 135.12%) !important;
     -webkit-background-clip: text !important;
@@ -530,9 +533,9 @@ h1 {
      /* font-family: 'Circular-bold.ttf'; */
 /* padding: 14px 32px !important; */
 }
- 
-
-
+.Part2text2:hover{
+    background-color: #F7F7F7;
+}
   .Part2img{
     /* margin-left:80px;
     margin-right:80px; */
@@ -548,6 +551,19 @@ h1 {
     border-radius: 12px;
   }
  
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Picture with Inspiration for your trip ///////////////////////////////////////////////////////////*/
 .Part3{
