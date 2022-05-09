@@ -401,10 +401,16 @@ h1 {
   display: inline-block;
   padding-bottom: 24px;
   }
+
+
+
   .Part1div2{
     display: flex;
     justify-content: center;
   }
+
+
+
   .Part1span1{
     background-color: #FF385C;
     color: #FFFFFF;
@@ -445,6 +451,8 @@ h1 {
     left: 0;
     background: black;
   }
+
+
   .Part2text{
     display: grid;
     grid-template-columns: 1fr;
@@ -456,6 +464,8 @@ h1 {
     height: 100%;
     align-items: end;
   }
+
+
   .Part2text1{
     position: absolute;
     font-size: 41px;
@@ -485,6 +495,8 @@ h1 {
     #sample{
         font-weight: bolder;
     }
+
+    
   .Part2text2{
     display: flex;
     justify-content: center;
@@ -500,6 +512,7 @@ h1 {
     font-family: 'Circular';
   }
 
+
   .Part2text2a{
     font-size: 18px;
     background: linear-gradient(90deg, rgb(111, 1, 156) 0%, rgb(198, 1, 126) 135.12%) !important;
@@ -510,6 +523,8 @@ h1 {
     font-family: 'Circular';
   /* padding: 14px 32px !important; */
   }
+
+
   .Part2img{
     /* margin-left:80px;
     margin-right:80px; */
