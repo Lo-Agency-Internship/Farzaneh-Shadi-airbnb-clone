@@ -419,6 +419,9 @@ h1 {
     padding: 0;
     padding-top: 126px;
 }
+
+
+
   .Part1text1{
     font-size: 38px;
     height: 43px;
@@ -434,10 +437,16 @@ h1 {
     /* height: 67px; */
     /* margin-top: 116px; */
   }
+
+
+
   .Part1div2{
     display: flex;
     justify-content: center;
   }
+
+
+
   .Part1span1{
     background-color: #FF385C;
     color: #FFFFFF;
@@ -482,6 +491,8 @@ h1 {
     left: 0;
     background: black;
   }
+
+
   .Part2text{
     display: grid;
     grid-template-columns: 1fr;
@@ -493,6 +504,8 @@ h1 {
     height: 100%;
     align-items: end;
   }
+
+
   .Part2text1{
     position: absolute;
     font-size: 41px;
@@ -501,6 +514,8 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-weight: bolder !important;
+    font-family: 'Circular';
     /* font-weight: bolder !important;
     font-family: 'Circular-light.ttf'; */
 
@@ -524,6 +539,8 @@ h1 {
     #sample{
         font-weight: bolder;
     }
+
+
   .Part2text2{
     display: flex;
     justify-content: center;
@@ -535,6 +552,7 @@ h1 {
     width: 161.425px;
     height: 56px;
     cursor: pointer;
+    
     /* font-weight: bolder !important;
     font-family: 'Circular-light.ttf'; */
   }
@@ -542,16 +560,31 @@ h1 {
     background-color: #F7F7F7;
   }
 
-  .Part2text2a{
+
+
+
+
+
+
+
+ 
+ .Part2text2a{
     font-size: 18px;
     background: linear-gradient(90deg, rgb(111, 1, 156) 0%, rgb(198, 1, 126) 135.12%) !important;
     -webkit-background-clip: text !important;
     -webkit-text-fill-color: transparent !important;
     line-height: 28px;
     min-width: 0px !important;
+    font-family: 'Circular';
+     /* font-family: 'Circular-bold.ttf'; */
+/* padding: 14px 32px !important; */
+}
+.Part2text2:hover{
+    background-color: #F7F7F7;
+}
     /* font-family: 'Circular-bold.ttf'; */
   /* padding: 14px 32px !important; */
-  }
+  
   .Part2img{
     /* margin-left:80px;
     margin-right:80px; */
@@ -567,6 +600,19 @@ h1 {
     border-radius: 12px;
   }
  
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Picture with Inspiration for your trip ///////////////////////////////////////////////////////////*/
 .Part3{
@@ -857,7 +903,123 @@ background-color: #EBEBEB;
     line-height: 20px;
 }
 
-/*=============================================== this part for footer styles */
+/* =============================================== this part for footer styles */
+
+
+.container-footer{
+    font-family: 'Circular',serif;
+    width: 88%;
+    min-height: 30px;
+    margin: 4px auto;    
+    box-sizing: border-box;
+    border: 1px solid transparent;
+}
+.parent-title-footer > *{
+    font-size: 24px;
+    font-weight: 700px;
+}
+/* meta list */
+.parent-meta-list-section{
+    margin-left: 62px;
+}
+.meta-list-item-child{
+    display: flex;
+    list-style-type: none;
+    border-bottom: 1px solid #00000021;
+}
+.meta-list-item-child li:first-child{
+    padding-left: 10px;
+}
+
+.meta-list-item-child li{
+    padding: 10px 0;    
+    border-bottom: 2px solid transparent;
+}
+.meta-list-item-child li:hover{
+    border-bottom: 2px solid #000;
+}
+.meta-list-item-child li:hover a{
+    background-color: #00000007;
+    color: #000;
+}
+.meta-list-item-child  .meta-list-link{
+    font-size: 16px;
+    font-weight: 400px;
+    margin-right: 6px;    
+    text-decoration: none;
+    color: #00000098;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* meta list item box */
+.meta-list-item{    
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    overflow: hidden !important;
+    margin: 32px 20px 50px 20px;
+    height: 200px !important;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+}
+
+.box-item{
+    width: 285px;
+    height: 38px;
+    border: 1px solid transparent;
+}
+.text-muted{
+    color: #717171;
+}
+
+/* mid part footer */
+.mid-part-parent{
+    width: 100%;
+    background-color: #F7F7F7 !important;    
+}
+.row{
+    width: 98%;
+    height: 400px;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    background-color: #F7F7F7 !important;    
+}
+.border-bottom{
+    width: 88%;        
+    margin: 0 auto;
+    padding: 0 !important;
+    border: .5px solid #00000021 !important;           
+}
+.d-grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.mid-list-footer{    
+    margin: 48px 0;   
+}
+
+.mid-list-footer li{
+    margin: 18px auto;   
+}
+.mid-list-footer li > *{
+    color: #000; 
+}
+.mid-list-footer li a{
+    text-decoration: none;
+    font-size: 16px;
+}
+/* .mid-list-footer-last-child{
+    margin-left: 0px;
+} */
+.d-flex{
+    display: flex;
+}
+/* 
 #footer {    
     border: 1px solid transparent;
     background-color: #ffffff;
@@ -887,7 +1049,9 @@ background-color: #EBEBEB;
     font-weight: bolder;
     margin: 10px 0px;
 }
-
+#last-part-footer{
+    font-family: 'Circular' !important;    
+}
 #description-footer-links {
     width: 100%;
     min-height: 70px;
@@ -966,80 +1130,12 @@ background-color: #EBEBEB;
 footer{
     font-family: 'Circular', sans-serif;
 }
-
-#meta-list-item div {
-    width: 50%;
-    height: 200px;
-    list-style-type: none;
-
-}
-
-#meta-list-item ul li {
-    padding-right: 10px;
-    list-style-type: none;
-    margin-top: 24px;
-}
-
-#meta-list-item ul li a {
-    padding: 20px 10px;
-    border-radius: 12px;
-    text-decoration: none;
-    color: #000000;
-}
-
-#meta-list-item ul li :hover a {
-    background-color: #00000011;
-    padding: 20px 30px;
-    border-radius: 12px;
-    list-style-type: none;
-}
-
-#listOfFooter {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px 15px;
-    border-radius: 12px;
-    list-style-type: none;
-    scroll-padding-inline: auto;
-    color: black
-}
-.parent-content-footer {    
-    width: 99.8%;
-    height: 300px;
-    background-color: #f7f7f7
-}
-
-.parent-content-footer div { 
-    display: flex;
-}
-.parent-content-footer div ul {     
-    margin: 48px 12px 48px 55px;
-}
-.parent-content-footer div ul:first-child{
-    margin-left: 135px !important;
-}
-.parent-content-footer ul:last-child{
-    margin: 48px 87px !important;
-}
-.parent-content-footer div ul li:nth-child(1){
-    margin-top: 0 ;
-
-}
-.parent-content-footer div ul li {
-    margin-top: 10px;
-}
-.parent-content-footer div ul li a{
-    color : #000000;
-    text-decoration: none;
-}
-.parent-content-footer ul li a:hover{
-     text-decoration: underline;
-}
+/* 
 .w-90{
     width: 90% !important;
     margin: 0 auto;
     background-color: #f7f7f7 !important;
-}
+} */
 #last-part-footer{
     width: 100%;
     margin:  0 auto;
