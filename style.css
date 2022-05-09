@@ -391,6 +391,9 @@ h1 {
     text-align: center; 
     justify-content: center;
 }
+
+
+
   .Part1text1{
     font-size:38px;
   flex: 0 0 120px;
@@ -496,7 +499,7 @@ h1 {
         font-weight: bolder;
     }
 
-    
+
   .Part2text2{
     display: flex;
     justify-content: center;
