@@ -1018,7 +1018,14 @@ background-color: #EBEBEB;
     display: flex;
     width: 100%;
     align-items: center;
-
+}
+#last-part-child-one{
+    font-size: 14px;
+    box-sizing: border-box;
+    font-weight: 400;
+    line-height: 12px;
+    color: rgb(34,34,34);
+    
 }
 #last-part-child-one ul li:first-child{
     margin: 0
@@ -1040,12 +1047,12 @@ background-color: #EBEBEB;
     margin: 0 100px;
 }
 #last-part-child-two ul{
-    margin-left: auto;    
-    justify-content: end;
+    margin-left:auto;
+    justify-content:end;
 }
 
 #last-part-child-two ul li{
-padding: 0px 5px ;
+padding: 0px 7px ;
 }
 #last-part-child-two ul li a{
     color: #000000;
@@ -1068,9 +1075,16 @@ footer {
     text-decoration: underline;
 }
 
+#last-part-child-two{
+    font-size: 14px;
+    box-sizing: border-box;
+    font-weight: 400;
+    line-height: 12px;
+    color: rgb(34,34,34);
+}
+
 #last-part-child-two li:hover{
     text-decoration: underline;
-
 }
 .footertitle{
     font-size: 14px;
