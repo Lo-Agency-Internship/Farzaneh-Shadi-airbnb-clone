@@ -29,6 +29,8 @@ body {
     margin-top: 0;
     padding: 0;
     padding: 0;
+    width:100vw;
+    overflow-x: hidden;
 }
 h1 {
     font-size: 46px;
@@ -761,9 +763,9 @@ background-color: #EBEBEB;
     line-height: 20px;
 }
 
-/* =============================================== this part for footer styles */
+/* ================================================= this part for footer styles */
+
 .container-footer{
-   
     font-family: 'Circular',serif;
     width: 1189.6px;
     margin-left: 60px;
@@ -794,7 +796,6 @@ background-color: #EBEBEB;
     height: 182px !important;
     border: 1px solid transparent;
     box-sizing: border-box;
-    /* gap: 2px; */
     grid-area: 10px;
     grid-column-gap: 13px;
 
@@ -804,8 +805,7 @@ background-color: #EBEBEB;
     list-style-type: none;
     border-bottom: 1px solid #00000021;
     margin-left: 21px;
-    gap:22px;
-    
+    gap:22px;  
 }
 
 .meta-list-item-child li{
@@ -955,7 +955,6 @@ background-color: #EBEBEB;
 
 #description-footer-links ul li {
     padding-right: 10px;
-
 }
 
 #description-footer-links ul li a {
@@ -977,7 +976,6 @@ background-color: #EBEBEB;
     flex-direction: row;
     list-style-type: none;
     padding-left: 11px;
-
 }
 
 .border-bottom {
@@ -1026,6 +1024,7 @@ background-color: #EBEBEB;
 #last-part-child-one ul li a:hover{
     text-decoration: underline;
 }
+
 #last-part-child-two{
     width: 50%;
     margin: 0 100px;
@@ -1034,6 +1033,7 @@ background-color: #EBEBEB;
     margin-left: auto;    
     justify-content: end;
 }
+
 #last-part-child-two ul li{
 padding: 0px 5px ;
 }
@@ -1054,6 +1054,13 @@ footer {
 .bottomicon {
     display: flex;
     align-items: center;
+    font-weight:500;
+    text-decoration: underline;
+}
+
+#last-part-child-two li:hover{
+    text-decoration: underline;
+
 }
 .footertitle{
     font-size: 14px;
