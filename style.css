@@ -29,7 +29,7 @@ body {
     margin-top: 0;
     padding: 0;
     padding: 0;
-    width:100vw;
+    /* width:100vw; */
     overflow-x: hidden;
 }
 h1 {
@@ -208,7 +208,6 @@ h1 {
     .Searchbar1:hover, .Searchbar3:hover, .ChildSearchbar2:hover{
         background-color: #EBEBEB;
         border-radius: 40px;
-
     }
     
     .Searchbar1-1{
@@ -222,6 +221,9 @@ h1 {
         height: 32px;
         width: 182.488px;
         cursor: pointer;
+    }
+    .Searchbar1-1:hover{
+        border:none;
     }
     label{
         font-size: 12px;
@@ -238,7 +240,9 @@ h1 {
     font-size: 14px;
     font-family: Circular, sans-serif;
     margin-top: -1px;
+    background: none;
     }
+    
     .Searchbarspan{
         font-size: 14px;
         line-height: 18px;
@@ -273,6 +277,9 @@ h1 {
         align-items: flex-start;
         /* padding-top: 1px; */
     }
+    .Searchbar2-1:hover{
+        border:none;
+    }
     .Searchbar2-2{
         flex: 2;
         display: flex;
@@ -284,6 +291,9 @@ h1 {
         height: 32px;
         justify-content: center;
         /* padding-top: 1px */
+    }
+    .Searchbar2-2:hover{
+        border:none;
     }
     .Searchbar3{
         display: flex;
